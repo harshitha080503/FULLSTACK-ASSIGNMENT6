@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Quiz</title>
+    <link rel="stylesheet" href="task(6.2).css">
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>QUIZ QUESTIONS</h1>
+        <div class="question">
+            <p>1.Who is making the web standards?</p>
+            <input type="radio" id="The World Wide Web Consortium" name="question1" value="The World Wide Web Consortium">
+            <label for="The World Wide Web Consortium">The World Wide Web Consortium</label><br>
+            <input type="radio" id="Mozilla" name="question1" value="Mozilla">
+            <label for="Mozilla">Mozilla</label><br>
+            <input type="radio" id="Microsoft" name="question1" value="Microsoft">
+            <label for="Microsoft">Microsoft</label>
+        </div>
+        <div class="question">
+            <p>2.Which of the below is the abbreviation of CSS?</p>
+            <input type="radio" id="Cascade sheets style" name="question2" value="Cascade sheets style">
+            <label for="Cascade sheets style">Cascade sheets style</label><br>
+            <input type="radio" id="Color and style sheets" name="question2" value="Color and style sheets">
+            <label for="Color and style sheets">Color and style sheets</label><br>
+            <input type="radio" id="Cascading style sheets" name="question2" value="Cascading style sheets">
+            <label for="Cascading style sheets">Cascading style sheets</label>
+        </div>
+        <div class="question">
+            <p>3.Where is the correct place to insert a JavaScript?</p>
+            <input type="radio" id="The head section" name="question3" value="The head section">
+            <label for="The head section">The head section</label><br>
+            <input type="radio" id="Both the head section and the body section are correct" name="question3" value="Both the head section and the body section are correct">
+            <label for="Both the head section and the body section are correct"> Both the head section and the body section are correct </label><br>
+            <input type="radio" id="The body section" name="question3" value="The body section">
+            <label for="The body section">The body section</label>
+        </div>
+        <button class="submit-btn" onclick="calculateScore()">Submit</button>
+    </div>
+    <script src="task(6.2).js"></script>
+    
+</body>
+</html>
